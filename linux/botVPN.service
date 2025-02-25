@@ -1,0 +1,12 @@
+[Unit]
+Description= Bot VPN Service
+After=network.target
+
+[Service]
+ExecStart=/root/tgbot/botVPN.py
+WorkingDirectory=/root/tgbot/
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
