@@ -3,7 +3,7 @@ import telebot, subprocess, os
 from functions import convert_bytes, get_users, is_valid_date, reverse_date_format, year_by_month, is_valid_input, check_password
 
 bot = telebot.TeleBot('') # API
-database = '/root/tgbot/database.db'
+database = 'database.db'
 user_states = {}
 months = {
     "Декабрь":'12', "Январь":'01', "Февраль":'02', "Март":'03',

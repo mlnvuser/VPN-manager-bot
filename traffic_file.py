@@ -103,4 +103,4 @@ def main(file_path):
 
 
 if __name__ == "__main__":
-    main("/var/log/openvpn/status.log")
+    main("status.log")
